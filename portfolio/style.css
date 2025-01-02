@@ -28,3 +28,9 @@ nav {
 .logo{
     width: 140px;
 }
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 10px;
+    color:#fdf0d5;
+}
