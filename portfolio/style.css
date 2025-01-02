@@ -36,10 +36,22 @@ nav ul li{
 nav ul li a{
     color:#fdfae2;
     text-decoration: none;
-    transition: color 0.3s ease;
+    transition: color 0.5s;
     font-size: 18px;
+    position: relative;
     
 }
-nav ul li a:hover{
-    color: #ff8000;
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -6px;
+    left: 0;
+    background: #f57f20;
+    transition: 0.3s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+    bottom: -3px;
 }
