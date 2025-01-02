@@ -32,5 +32,14 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin: 10px 10px;
-    color:#fdf0d5;
+}
+nav ul li a{
+    color:#fdfae2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+    
+}
+nav ul li a:hover{
+    color: #ff8000;
 }
