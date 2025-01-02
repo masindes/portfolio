@@ -19,6 +19,10 @@ body {
 .container{
     padding: 10px 10%;
 }
+.header-text{
+    color: #fdfae2;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -65,4 +69,33 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
     color: #f57f20;
+}
+
+/* ----------about--------*/
+
+#about{
+    padding: 80px 0;
+    color: #fdfae2;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.about-title{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fdfae2;
 }
