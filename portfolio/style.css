@@ -120,11 +120,25 @@ nav ul li a:hover::after{
     position: absolute;
     width: 0%;
     height: 3px;
-    bottom: -6px;
+    bottom: -8px;
     left: 0;
     background: #f57f20;
-    transition: 0.3s;
+    transition: 0.5s;
 }
-.tab-links:hover::after{
-    width: 100%;
+.tab-links.active-link::after{
+    width: 50%;
+}
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents ul li span{
+    color: #f57f20;
+    font-size:15px;
+}
+.tab-contents {
+    display: none;
+}
+.tab-contents.active-tab{
+    display: block;
 }

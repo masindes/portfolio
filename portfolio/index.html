@@ -50,15 +50,51 @@
                 Let’s connect if you’re looking for a versatile and passionate creator who can bring your ideas to life!</p>
 
                 <div class="tab-titles">
-                  <p class="tab-links">Skills</p>
-                  <p class="tab-links">Education</p>
-                  <p class="tab-links">Experience</p>
+                  <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                  <p class="tab-links" onclick="opentab('Education')">Education</p>
+                  <p class="tab-links" onclick="opentab('experience')">Experience</p>
                 </div>
-    
+                <div class="tab-contents active-tab" id ="skills">
+                  <ul>
+                    <li><span>Web Developement</span><br> Web/APP development</li>
+                    <li><span>Graphic Designer</span><br>Designing Web/ APP interfaces</li>
+                    <li><span>App Developement</span><br>Building Android/ios apps</li>
+                    <li><span>UI/UX</span><br>Designing User Interfaces</li>
+                </div>
+                <div class="tab-contents" id="Education">
+                  <ul>
+                    <li><span>August 2024 - current</span><br> Associate degree in Computer software engineering,Moringa school</li>
+                    <li><span>Mar 2019 - Dec 2021</span><br>BTEC Diploma in Graphic Art and Design, Academy of Graphic technologies</li>
+                    <li><span>Jan 2017 - Apr 2017</span><br>Electronic Publishing, Academy of Graphic technologies</li>
+                    <li><span>2015</span><br>KCSE ;St' Paul's secondary School,Kakamega</li>
+                </div>
+                <div class="tab-contents" id="experience">
+                  <ul>
+                    <li><span>Jun 2023 - Aug 2024</span><br> Graphic Designer/Plate-maker at Polyflex Natal Limited</li>
+                    <li><span>Jan 2021 - Apr 2023</span><br>Graphic Designer at PrintKnight Limited</li>
             </div>
           </div>
       </div>
     </div>
+
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove ('active-link');
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove ('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+      }
+
+    </script>
     
 </body>
 </html>
