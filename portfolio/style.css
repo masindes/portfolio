@@ -172,4 +172,31 @@ nav ul li a:hover::after{
     text-align: center;
     font-family: 13px;
     font-weight: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.services-list div i{
+    font-size: 30px;
+    color: #f57f20;
+    margin-bottom: 20px;
+    transition: color 0.5s;
+}
+.services-list div:hover i{
+    color: #fcf6f6;
+}
+.services-list div h2{
+    font-size: 30px;
+    color: #fdfae2;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.services-list div a{
+    text-decoration: none;
+    color: #fcf6f6;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #f57f20;
+    transform: translateY(-10px);
 }
