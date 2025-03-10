@@ -228,5 +228,10 @@ nav ul li a:hover::after{
     bottom: 0;
     overflow: hidden;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0,40px;
+    text-align: center;
     
   }
