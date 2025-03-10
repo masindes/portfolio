@@ -243,7 +243,7 @@ nav ul li a:hover::after{
 }
  #layer a{
     margin-top: 20px;
-    padding: -20px 20px;
+    padding: 10px 20px;
     color: #080808;
     text-decoration: none;
     font-family: 18px;
@@ -261,5 +261,5 @@ nav ul li a:hover::after{
     transform: scale(1.05);
 }
 .work:hover #layer{
-    height: auto;
-}
+    height: 100%;
+}   
