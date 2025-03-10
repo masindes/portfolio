@@ -262,4 +262,11 @@ nav ul li a:hover::after{
 }
 .work:hover #layer{
     height: 100%;
-}   
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #f57f20;
+    padding: 10px 20px;
+}
