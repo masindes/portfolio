@@ -231,7 +231,21 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0,40px;
+    padding: 10,40px;
     text-align: center;
+    font-size: 14px;
     
+  }
+  #layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  #layer a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #080808;
+    text-decoration: none;
+    font-family: 18px;
+    line-height: 60px;
+    background-color: #fcf6f6;
   }
