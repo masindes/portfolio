@@ -217,6 +217,7 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 10px;
     display: block;
+    transition: transform 0.5s;
 }
   #layer{
     width: 100;
@@ -235,12 +236,12 @@ nav ul li a:hover::after{
     text-align: center;
     font-size: 14px;
     
-  }
-  #layer h3{
+}
+ #layer h3{
     font-weight: 500;
     margin-bottom: 20px;
-  }
-  #layer a{
+}
+ #layer a{
     margin-top: 20px;
     padding: 10px 20px;
     color: #080808;
@@ -252,4 +253,7 @@ nav ul li a:hover::after{
     height: 60px;
     border-radius: 50%;
     text-align: center;
-  }
+}
+.work:hover img{ 
+    transform: scale(1.05);
+}
