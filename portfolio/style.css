@@ -278,3 +278,13 @@ nav ul li a:hover::after{
     color: #080808;
     transition: background-color 0.5s;
 }
+
+/* .............contact ...............*/
+
+.contact-left{
+    flex-basis: 35%;
+}
+
+.contact-right{
+    flex-basis: 60%;
+}
