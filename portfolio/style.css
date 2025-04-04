@@ -305,7 +305,9 @@ nav ul li a:hover::after{
    margin-right: 15px;
    color: #fdfae2;
    display: inline-block;
+   transition: transform 0.5sec;
 }
-.social-icons a{
-    
+.social-icons a:hover{
+    color: #f57f20;
+    transform: translateY(-5px);
 }
